@@ -1,0 +1,64 @@
+.add-layout{
+    width: 40rem;
+    margin: 5rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    z-index: 3;
+    background-color: white;
+}
+
+.add-layout-heading{
+    margin: 0.5rem 0;
+}
+
+.add-layout-item{
+    margin: 0.5rem 0;
+    display: flex;
+}
+
+.add-layout-item>label{
+    display: inline-block;
+    width: 10rem;
+}
+
+.add-layout-item>input, .add-layout-item>textarea{
+    flex: 1;
+}
+
+textarea{
+    font-size: inherit;
+    font-family: inherit;
+    resize: none;
+}
+
+.add-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-btn{
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1000rem;
+    background-color: rgb(73, 160, 235);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.add-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    background-color: rgba(0,0,0);
+    opacity: 0.2;
+}
